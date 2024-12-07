@@ -1,9 +1,4 @@
-# create index.js and paste the following
-# creates a server object in a variable named server
-# takes in a request and response function
-# outputs a response to the browser
-# checks for the environment variable 'process.env.PORT`, or 5000 if not available
-# then just output this string to the console
+
 const http = require('http');
 
 const server = http.createServer((req, res) => {
